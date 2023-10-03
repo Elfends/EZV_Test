@@ -50,26 +50,26 @@ Before you begin, ensure you have met the following requirements:
   php artisan key:generate
   ```
 
-##Configuration
+## Configuration
 Edit the .env file to configure your application:
 
 * Set the database connection details (DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 * Configure other environment-specific settings (e.g., mail, caching, queues).
 
-##Usage
+## Usage
 Run Database Migrations and Seed the Database (if applicable):
 
   ```bash
   php artisan migrate --seed
   ```
 
-##Start the Development Server:
+## Start the Development Server:
 
   ```bash
   php artisan serve
   ```
 
-##Access Your API:
+## Access Your API:
 You can access your API at http://localhost:8000.
 
 ##Testing
